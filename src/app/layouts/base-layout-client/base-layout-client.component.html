@@ -1,0 +1,39 @@
+<div class="container">
+        <header class="header">
+          <div class="header__container">
+            <div class="header-main-nav">
+              <div class="header-logo">
+                <h4 class="logo-1">Pirated</h4>
+                <h4 class="logo-2">Movies</h4>
+              </div>
+              <div class="header-nav">
+                <div class="menu-header-container">
+                  <ul class="main-nav">
+                    <li class="menu-item">
+                      <a routerLink="">Home</a>
+                    </li>
+                    <li class="menu-item">
+                      <a routerLink="/movies">Movies</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="header-login">
+              <a routerLink="login">Login</a>
+            </div>
+          </div>
+        </header>
+        <main class="main-content">
+          <router-outlet></router-outlet>
+        </main>
+        <footer class="footer__container">
+          <a href="">
+            <div class="footer-logo">
+              <h4 class="logo-1">Pirated</h4>
+              <h4 class="logo-2">Movies</h4>
+            </div>
+          </a>
+        </footer>
+      </div>
+      
