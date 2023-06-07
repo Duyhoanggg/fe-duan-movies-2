@@ -1,0 +1,29 @@
+.auth__container{
+        background-image: url(../../../assets/imgs/bg-login.jpg);
+        width: 100vw;
+        height: 100vh;
+        position: relative;
+        background-size: cover;
+
+        
+}
+
+.header-logo-auth{
+        display: flex;
+        font-size: 34px;
+        line-height: 1.235;
+        letter-spacing: 0.00735em;
+        padding: 30px;
+        background-color: rgb(0, 0, 0,0.5);
+        margin-bottom: 20px;
+
+        
+}
+.header-logo-auth .logo-1 {
+        font-weight: 700;
+        color: #fff;
+}
+.header-logo-auth .logo-2 {
+        font-weight: 400;
+        color: rgb(255, 0, 0);
+}
