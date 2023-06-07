@@ -5,12 +5,18 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BaseLayoutClientComponent } from './layouts/base-layout-client/base-layout-client.component';
 import { BaseLayoutAuthComponent } from './layouts/base-layout-auth/base-layout-auth.component';
+import { HomePageComponent } from './pages/home-page/home-page.component';
+import { BannerMovieComponent } from './components/banner-movie/banner-movie.component';
+import { ListMovieComponent } from './components/list-movie/list-movie.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     BaseLayoutClientComponent,
-    BaseLayoutAuthComponent
+    BaseLayoutAuthComponent,
+    HomePageComponent,
+    BannerMovieComponent,
+    ListMovieComponent
   ],
   imports: [
     BrowserModule,
